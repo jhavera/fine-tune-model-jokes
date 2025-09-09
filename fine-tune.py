@@ -1,3 +1,6 @@
+# Author: John Avera
+# Description: This script fine-tunes a LLM to tell dad jokes
+
 import os
 
 import torch
