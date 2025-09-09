@@ -12,6 +12,8 @@ from transformers import (
 )
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from datasets import load_dataset
+
+# --- This code block is for retrieving Hugging Face token when running in Google Colab --#
 # from google.colab import userdata # Import userdata
 
 # Use Hugging Face token from Colab Secrets
@@ -22,10 +24,8 @@ from datasets import load_dataset
 #         "Make sure you've accepted the model's license on its model card page."
 #     )
 
-import os
-
+# --- This code block is for retrieving token when running on local host machine --#
 HF_TOKEN_ENV = "HF_TOKEN"
-
 
 def get_hf_token(required: bool = True) -> str:
     """
