@@ -17,7 +17,7 @@ This repository contains a Python script for **fine-tuning** a large language mo
 ## 💡 Motivation
 An article I wrote providing the motivation for this project can be found here:
 
-<img width="500" height="412.6" alt="image" src="https://github.com/user-attachments/assets/41298454-7e96-4586-8b3b-b17a0f481e44" />
+[<img width="500" height="412.6" alt="image" src="https://github.com/user-attachments/assets/41298454-7e96-4586-8b3b-b17a0f481e44" />](https://medium.com/@jhavera/dad-jokes-lora-and-my-daughter-a-misguided-technical-odyssey-1ed6d6dd908c)
 
 [Dad Jokes, LoRA, and My Daughter: A Misguided Technical Odyssey](https://medium.com/@jhavera/dad-jokes-lora-and-my-daughter-a-misguided-technical-odyssey-1ed6d6dd908c)
 
