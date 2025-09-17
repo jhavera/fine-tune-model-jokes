@@ -52,6 +52,7 @@ def get_hf_token(required: bool = True) -> str:
 
 
 # Backwards-compatible module-level token for existing code paths.
+# The first time I ran this, I copied in the HF token here, but it is best to set it as an environment variable.
 HF_TOKEN = get_hf_token()
 
 # ---- Load dataset from CSV and process it ----
